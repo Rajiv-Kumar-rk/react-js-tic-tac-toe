@@ -1,0 +1,56 @@
+.container{
+  height: 500px;
+  width: 500px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board{
+  width: fit-content;
+  height: fit-content;
+  background-color: aquamarine;
+
+}
+
+.row{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.box{
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  border: 2px solid black;
+  background-color: aqua;
+  cursor: pointer;
+  align-items: center;
+}
+
+.restartBtn{
+
+}
+
+.title{
+  color: white;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.ZeroTaken{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: orange;
+}
+
+.CrossTaken{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background-color: greenyellow;
+}
